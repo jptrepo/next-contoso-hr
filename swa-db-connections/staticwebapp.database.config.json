@@ -28,5 +28,15 @@
       }
     }
   },
-  "entities": {}
+  "entities": {
+    "Employee": {
+      "source": "HR.Employees",
+      "permissions": [
+        {
+          "actions": ["read"],
+          "role": "anonymous"
+        }
+      ]
+    }
+  }
 }
